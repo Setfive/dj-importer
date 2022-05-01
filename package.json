@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,9 @@
     "lodash": "^4.17.10",
     "minimist": "^1.2.0",
     "mysql": "^2.15.0",
+    "nodemon": "^2.0.16",
     "restify": "^5.2.1",
-    "spotify-web-api-node": "git+https://github.com/Setfive/spotify-web-api-node.git"
+    "spotify-web-api-node": "git+https://github.com/Setfive/spotify-web-api-node.git",
+    "ts-node": "^10.7.0"
   }
 }
